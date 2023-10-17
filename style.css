@@ -1,0 +1,45 @@
+h1, h2, h3, h4, h6, p {
+    font-weight: 200;
+}
+
+.caption{
+    text-decoration: underline;
+}
+
+.cap1{
+    text-decoration-color: bisque ;
+}
+
+.cap2{
+    text-decoration-color: aqua ;
+}
+
+.cap3{
+    text-decoration-color: darksalmon ;
+}
+
+table.striped>tbody>tr:nth-child(odd) {
+    background-color: rgba(177, 232, 236, 0.925);
+}
+
+tr {
+    border-bottom: 1px solid rgba(75, 221, 240, 0.932) !important;
+}
+
+blockquote {
+    border-left: 5px solid #56cbe6 !important;
+}
+
+.for-fixed-nav{
+    width: 90%;
+}
+
+.kanade-grid{
+    margin: 20px 0 0 30px;
+    /*
+    position requires a top value to work
+     */
+    
+    position: sticky;
+    top: 30px;
+}
